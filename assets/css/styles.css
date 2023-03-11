@@ -200,7 +200,7 @@ body.light-theme {
 }
 
 .section {
-  padding: 4.5rem 0 1rem;
+  padding: 2.5rem 0 1rem;
 }
 
 .section__title,
@@ -243,6 +243,10 @@ body.light-theme {
   color: var(--first-color);
   font-weight: var(--font-medium);
   transition: 0.4s;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav__logo img{
+  width: 10%;
 }
 
 .nav__logo:hover {
@@ -329,7 +333,8 @@ body.light-theme {
 }
 
 .home__img {
-  width: 160px;
+  width: 190px;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .home__handle {
@@ -927,7 +932,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 130px;
+    width: 160px;
   }
 
   .about__info {
@@ -1083,13 +1088,16 @@ body.light-theme {
 
 /* For large devices */
 @media screen and (min-width: 992px) {
+  .nav__logo img {
+    padding-top: 10px;
+  }
   .container {
     margin-left: auto;
     margin-right: auto;
   }
 
   .section {
-    padding: 6.5rem 0 1rem;
+    padding: 3.5rem 0 1rem;
   }
 
   .section__title {
@@ -1106,7 +1114,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 220px;
+    width: 260px;
   }
   .home__social-link {
     padding: 0.4rem;
